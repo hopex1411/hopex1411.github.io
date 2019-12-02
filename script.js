@@ -14,7 +14,7 @@ $( document ).ready(function() {
     $("#message").text(message).show();
   }  
 
-  //day=25; // uncomment to skip to 25
+  //day=24; // uncomment to skip to 24
 
   // Only work in December
   if(month === 12) {
