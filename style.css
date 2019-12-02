@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+html{
+  background: url("img/minnamumikalender.png") no-repeat;
+  background-size: 68%;
+}
+
+body {
+  color: #fff;
+  font-family: 'Oleo Script', cursive;
+  padding: 20px;
+  font-weight: 400;
+}
+
+#december1{
+  position: absolute;
+  left: 89px;
+  top: 28px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december2{
+  position: absolute;
+  left: 284px;
+  top: 26.5px;
+  width: 101.5px;
+  height: 101.5px;
+}
+
+#december3{
+  position: absolute;
+  left: 478px;
+  top: 26.5px;
+  width: 101.5px;
+  height: 101.5px;
+}
+
+#december4{
+  position: absolute;
+  left: 675px;
+  top: 26px;
+  width: 101.5px;
+  height: 101.5px;
+}
+
+#december5{
+  position: absolute;
+  left: 870px;
+  top: 26px;
+  width: 101.5px;
+  height: 101.5px;
+}
+
+#december6{
+  position: absolute;
+  left: 1067px;
+  top: 26px;
+  width: 149px;
+  height: 149px;
+}
+
+#december7{
+  position: absolute;
+  left: 39px;
+  top: 174.4px;
+  width: 149px;
+  height: 149px;
+}
+
+#december8{
+  position: absolute;
+  left: 283.5px;
+  top: 222.5px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december9{
+  position: absolute;
+  left: 479.5px;
+  top: 223px;
+  width: 100px;
+  height: 100px;
+}
+
+#december10{
+  position: absolute;
+  left: 675.5px;
+  top: 223px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december11{
+  position: absolute;
+  left: 89px;
+  top: 399px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december12{
+  position: absolute;
+  left: 284px;
+  top: 399px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december13{
+  position: absolute;
+  left: 480px;
+  top: 399px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december14{
+  position: absolute;
+  left: 675.5px;
+  top: 399px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december15{
+  position: absolute;
+  left: 39.5px;
+  top: 571.5px;
+  width: 148px;
+  height: 148px;
+}
+
+#december16{
+  position: absolute;
+  left: 284px;
+  top: 572px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december17{
+  position: absolute;
+  left: 480px;
+  top: 571px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december18{
+  position: absolute;
+  left: 675.5px;
+  top: 571px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december19{
+  position: absolute;
+  left: 284.5px;
+  top: 767.5px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december20{
+  position: absolute;
+  left: 480px;
+  top: 767.5px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december21{
+  position: absolute;
+  left: 676px;
+  top: 767.5px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december22{
+  position: absolute;
+  left: 871.5px;
+  top: 767.5px;
+  width: 99.5px;
+  height: 99.5px;
+}
+
+#december23{
+  position: absolute;
+  left: 1068px;
+  top: 719px;
+  width: 148px;
+  height: 148px;
+}
+
+#december24{
+  position: absolute;
+  left: 873px;
+  top: 322px;
+  width: 251px;
+  height: 251px;
+}
+
+h1 {
+  margin:0;
+  font-size:75px;
+  line-height: 75px;
+  text-align: center;
+  font-weight: 400;
+}
+
+ul {
+  margin:0 auto 30px auto;
+  padding:0;
+  list-style-type:none;
+  max-width:900px;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+}
+
+li {
+  font-weight: 400;
+  box-sizing: border-box;
+  display: inline-block;
+  color:#111;
+  cursor:pointer;
+  font-size: 26px;
+
+  background-color: #fff;
+  line-height: 100px;
+  text-align:center;
+  position: relative;
+  vertical-align:top;
+  user-select: none;
+  perspective: 800px;
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+.door {
+  user-select: none;
+  font-size: 60px;
+  position: absolute;
+  top:0;
+  left:0;
+  transform-origin: 0 40%; 
+  transition: all 0.4s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.revealed {
+  user-select: none;
+}
+
+#message {
+  box-sizing: border-box;
+  color: #222;
+  display: none;
+  font-size: 24px;
+  padding: 20px;
+  background: #eddecb;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.open {
+  color: #91c1cc;
+  transform: rotate3d(0, 1, 0, -98deg);
+}
+
+.jiggle {
+  animation: jiggle 0.5s infinite;
+  transform: rotate(-1deg);
+}
+
+@keyframes jiggle {
+  0% {
+        transform: rotate(-1deg);
+  }
+  50% {
+      transform: rotate(1deg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  li {
+    margin:25px 20px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+	body {
+		background-size:150px;
+	}
+	
+	p {
+		right: 6%;
+		top: 20%;
+		bottom: auto; 
+		margin-left: auto;
+		left: auto;
+	}
+}
