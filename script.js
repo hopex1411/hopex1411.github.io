@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-  var words = ["img/baglåge1.png", "img/baglåge2.png", "img/baglåge3.png", "img/baglåge4.jpg", "img/baglåge5.png", "img/baglåge6.png", "img/baglåge7.jpg", "img/baglåge8.png", "img/baglåge9.jpg", "img/baglåge10.png", "img/baglåge11.jpeg", "img/baglåge12.png", "img/baglåge13.jpeg", "img/baglåge14.png", "img/baglåge15.jpg", "img/baglåge16.jpg", "img/baglåge17.png", "img/baglåge18.png", "img/baglåge19.jpg", "img/baglåge20.jpg", "img/baglåge20.png", "img/baglåge22.png", "img/baglåge23.png", "img/baglåge24.png"];
+  var words = ["img/baglåge1.png", "img/baglåge2.png", "img/baglåge3.png", "img/baglåge4.jpg", "img/baglåge5.png", "img/baglåge6.png", "img/baglåge7.jpg", "img/baglåge8.png", "img/baglåge9.jpg", "img/baglåge10.png", "img/baglåge11.jpeg", "img/baglåge12.png", "img/baglåge13.jpeg", "img/baglåge14.png", "img/baglåge15.jpg", "img/baglåge16.jpg", "img/baglåge17.png", "img/baglåge18.png", "img/baglåge19.jpg", "img/baglåge20.jpg", "img/baglåge20.png", "img/baglåge22.jpg", "img/baglåge23.png", "img/baglåge24.png"];
 
   var message = "";
   var date = new Date();
