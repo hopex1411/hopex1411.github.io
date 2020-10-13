@@ -17,7 +17,7 @@ $( document ).ready(function() {
   //day=24; // uncomment to skip to 24
 
   // Only work in December
-  if(month === 12) {
+  if(month === 10) {
     // Loop through each calendar window
     $("li").each( function( index ) {
       var adventwindow = index + 1;

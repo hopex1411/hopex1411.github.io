@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 
 html{
-  background: url("/img/MinnaMumiKalender.png") no-repeat;
+  background: url("img/kalenderen.png") no-repeat;
   background-size: 68%;
 }
 
@@ -39,7 +39,7 @@ body {
 #december4{
   position: absolute;
   left: 675px;
-  top: 26px;
+  top: 28px;
   width: 101.5px;
   height: 101.5px;
 }
@@ -47,17 +47,17 @@ body {
 #december5{
   position: absolute;
   left: 870px;
-  top: 26px;
+  top: 28px;
   width: 101.5px;
   height: 101.5px;
 }
 
 #december6{
   position: absolute;
-  left: 1067px;
-  top: 26px;
-  width: 149px;
-  height: 149px;
+  left: 1067.5px;
+  top: 27.5px;
+  width: 99.5px;
+  height: 99.5px;
 }
 
 #december7{
@@ -70,24 +70,24 @@ body {
 
 #december8{
   position: absolute;
-  left: 283.5px;
-  top: 222.5px;
-  width: 99.5px;
-  height: 99.5px;
+  left: 285px;
+  top: 224px;
+  width: 99px;
+  height: 99px;
 }
 
 #december9{
   position: absolute;
-  left: 479.5px;
-  top: 223px;
-  width: 100px;
-  height: 100px;
+  left: 481px;
+  top: 224px;
+  width: 99px;
+  height: 99px;
 }
 
 #december10{
   position: absolute;
   left: 675.5px;
-  top: 223px;
+  top: 224px;
   width: 99.5px;
   height: 99.5px;
 }
@@ -102,16 +102,16 @@ body {
 
 #december12{
   position: absolute;
-  left: 284px;
-  top: 399px;
-  width: 99.5px;
-  height: 99.5px;
+  left: 284.5px;
+  top: 399.5px;
+  width: 98px;
+  height: 98px;
 }
 
 #december13{
   position: absolute;
-  left: 480px;
-  top: 399px;
+  left: 480.5px;
+  top: 398.5px;
   width: 99.5px;
   height: 99.5px;
 }
@@ -120,8 +120,8 @@ body {
   position: absolute;
   left: 675.5px;
   top: 399px;
-  width: 99.5px;
-  height: 99.5px;
+  width: 99px;
+  height: 99px;
 }
 
 #december15{
@@ -135,9 +135,9 @@ body {
 #december16{
   position: absolute;
   left: 284px;
-  top: 572px;
-  width: 99.5px;
-  height: 99.5px;
+  top: 573px;
+  width: 99px;
+  height: 99px;
 }
 
 #december17{
